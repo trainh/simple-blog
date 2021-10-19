@@ -17,17 +17,20 @@ o Registration a new account: email, name, password, role, status (email as ID).
 o The default role of new account is member.
 o The default status of new account is New.
 o Password must be encrypted using SHA-256 before store in database.
+![register-page](https://github.com/traitrantruon/simple-blog/blob/main/image/register-page.png)
 - Function 2: Login – 50 Points
 o The actor enters ID and password, the function checks if the ID with the password is in the available 
 account list, then grant the access permission. If not, a message would appear no notify that account is 
 not found.
 o Login function includes logout and welcome functions.
+![login-page](https://github.com/traitrantruon/simple-blog/blob/main/image/login-page.png)
 - Function 3: Article Search – 50 Points
 o List the available article in the system and sort by date: tittle, shortDescription, author, date.
 o Each page has a maximum of 20 records displayed. Paging is required to use.
 o User inputs the text that they want to find and click the Search button or the Enter key. A list article which 
 contain the search keyword (search by content). 
 o Login is not required.
+![article-page](https://github.com/traitrantruon/simple-blog/blob/main/image/index-page.png)
 - Function 4: Article Detail – 50 Points
 o List the available article in the system and sort by date.
 o Each page has a maximum of 20 records displayed. Paging is required to use.
@@ -40,11 +43,13 @@ o If the user has not authenticated, the system redirect to the login page.
 o Members can post their articles on the blog and wait for the admin's approval.
 o The default status of the article is New. The status will be changed to Active if the admin accepts that post.
 o Only member can use this function.
+![post-article-page](https://github.com/traitrantruon/simple-blog/blob/main/image/post-article-page.png)
 - Function 6: Post the comment – 50 points
 o In order to post the comment an authentication is required.
 o If the user has not authenticated, the system redirect to the login page.
 o Members can post their comment on the article.
 o Only member can use this function
+![comment](https://github.com/traitrantruon/simple-blog/blob/main/image/comment.png)
 - Function 7: Blog process – 150 points
 o List first 20 articles in the system order by date. Paging is required to use.
 o Support search function: by article name, status (New, Delete, Active).
@@ -55,6 +60,7 @@ o Update list article after delete or approval.
 o Delete action is update the status to Deleted.
 o Approval action is change the status to Active
 o Only admin account can use this function.
+![comment](https://github.com/traitrantruon/simple-blog/blob/main/image/admin-page.png)
 - Function 8: Authentication available email – 50 points (extra)
 o Authentication available email when registering a user.
 o When registering a new account, the system will send a confirmation code to the email address.
